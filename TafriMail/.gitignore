@@ -1,0 +1,138 @@
+# -----------------------------------------
+# ASP.NET Core Applications (MVC & Web API)
+# -----------------------------------------
+
+# Visual Studio
+.vs/
+*.suo
+*.user
+*.userprefs
+
+# Build results
+[Dd]ebug/
+[Rr]elease/
+x64/
+x86/
+[Aa][Rr][Mm]/
+[Bb]in/
+[Oo]bj/
+
+# Visual Studio Code
+.vscode/
+
+# Rider
+.idea/
+
+# User-specific files
+*.sln.ide
+*.sln.dotSettings
+
+# ASP.NET Core
+appsettings*.json
+appsettings*.Development.json
+
+# Local development settings
+*.db
+*.sqlite
+*.db-journal
+*.sqlite-journal
+
+# Logs
+*.log
+
+# Temporary files
+*.tmp
+*.temp
+
+# Publish output
+publish/
+
+# -----------------------------------------
+# React + TypeScript Application
+# -----------------------------------------
+
+# Node.js
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+package-lock.json
+yarn.lock
+
+# Build outputs
+dist/
+build/
+
+# Test outputs
+coverage/
+*.spec.ts
+*.test.ts
+
+# Environment variables
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Miscellaneous
+.DS_Store
+Thumbs.db
+
+# IDE specific files
+*.sublime-project
+*.sublime-workspace
+
+# Optional npm cache directory
+.npm/
+
+# Log files
+logs
+*.log
+
+# -----------------------------------------
+# Spring Boot Application
+# -----------------------------------------
+
+# Gradle
+.gradle/
+build/
+out/
+
+# Maven
+target/
+
+# Local configuration files
+*.iml
+.idea/
+*.ipr
+*.iws
+
+# Logs
+*.log
+logs/
+
+# Temporary files
+*.tmp
+*.temp
+
+# IntelliJ specific
+*.class
+*.jar
+*.war
+
+# Eclipse specific
+.settings/
+.classpath
+.project
+
+# Application files
+application-*.yml
+application-*.properties
+
+# Environment variables
+.env
+
+# Other
+.DS_Store
+Thumbs.db

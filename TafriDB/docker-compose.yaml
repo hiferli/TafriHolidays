@@ -1,0 +1,15 @@
+version: '3.1'
+
+services:
+  mysql:
+    image: mysql:latest
+    container_name: tafridb
+    environment:
+      MYSQL_ROOT_PASSWORD: Admin@123Admin@123
+      MYSQL_DATABASE: startup_database
+      # MYSQL_USER: root
+      # MYSQL_PASSWORD: Admin@123Admin@123
+    ports:
+      - "3307:3306"
+    volumes:
+      - ./Schema:/docker-entrypoint-initdb.d
